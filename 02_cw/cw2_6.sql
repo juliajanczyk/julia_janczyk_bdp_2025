@@ -11,7 +11,7 @@
 -- SELECT id, name, ST_AsText(geometry) FROM roads; 
 -- jak wyglądają dane
 SELECT 
-SUM(ST_Length(geometry)) AS total_road_length
+SUM(ST_Length(geometry)) AS road_length
 FROM roads;
 
 -- b)  Geometria (WKT), pole powierzchni oraz obwód poligonu reprezentującego budynek o nazwie BuildingA
