@@ -83,3 +83,14 @@ INSERT INTO obiekty (name, geometry) VALUES(
 	)
 );
 -- SELECT ST_AsGeoJSON(ST_CurveToLine(geometry)) FROM obiekty WHERE name = 'obiekt6';
+
+
+
+-- ST_LineToCurve - converts a LINESTRING/POLYGON to a CIRCULARSTRING, CURVED POLYGON;
+-- ST_CurveToLine - converts a CIRCULARSTRING/CURVEDPOLYGON to a LINESTRING/POLYGON
+-- ST_Line_Interpolate_Point — Returns a point interpolated along a line. Second argument is a float8
+-- between 0 and 1 representing fraction of total length of linestring the point has to be located.
+-- ST_GeometryType - return the geometry type of the ST_Geometry value.
+-- ST_LineFromMultiPoint — Creates a LineString from a MultiPoint geometry.
+-- ST_HasArc - Returns true if a geometry or geometry collection contains a circular string.
+-- ST_ShortestLine — Returns the 2-dimensional shortest line between two geometries (for version 1.5.0).
